@@ -1,7 +1,7 @@
 defmodule GeminiElx do
   use Plug.Router
 
-  plug CORSPlug, origin: ["*"] # FIX: obv
+  plug CORSPlug, origin: ["https://assignment.ojaskavathe.com"]
 
   plug :match
   plug :dispatch
